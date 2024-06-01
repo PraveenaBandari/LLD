@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="Concurrency 4 and Generics">
+      <change afterPath="$PROJECT_DIR$/src/Collections/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/StudentPSPComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/AnimalUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Client.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MohitSharma-dev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MohitSharma-dev/Backend_LLD_Sept23Morning.git&quot;,
+    &quot;accountId&quot;: &quot;37a32403-9101-408f-b867-fd396bb278a7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2g4magzqAWqcGAlijNp4LeGazIy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorAtomic.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorLocks.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorSyncBlock.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorSyncMethod.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Collections.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InhertianceAndConstructors.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntroToThreads.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.accessModifiers.Client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/Documents/Student_Submissions/Backend_LLD_Sept23Morning/src/AdderSubtractorAtomic&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AdderSubtractorAtomic" />
+      <recent name="$PROJECT_DIR$/src/ProducerConsumerSemaphore" />
+      <recent name="$PROJECT_DIR$/src/ProducerConsumer" />
+      <recent name="$PROJECT_DIR$/src/AdderSubtractorSyncMethod" />
+      <recent name="$PROJECT_DIR$/src/AdderSubtractorSyncBlock" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Collections.Client">
+    <configuration name="AdderSubtractorAtomic.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdderSubtractorAtomic.Client" />
+      <module name="Backend_LLD_Sept23Morning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AdderSubtractorAtomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdderSubtractorLocks.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdderSubtractorLocks.Client" />
+      <module name="Backend_LLD_Sept23Morning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AdderSubtractorLocks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumerSemaphore.Client" />
+      <module name="Backend_LLD_Sept23Morning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProducerConsumerSemaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Collections.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Client" />
+      <module name="Backend_LLD_Sept23Morning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generics.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Client" />
+      <module name="Backend_LLD_Sept23Morning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Collections.Client" />
+        <item itemvalue="Application.Generics.Client" />
+        <item itemvalue="Application.AdderSubtractorLocks.Client" />
+        <item itemvalue="Application.AdderSubtractorAtomic.Client" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46d9d04b-90d7-4d1c-a3df-757bf5964f95" name="Changes" comment="" />
+      <created>1714965288680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714965288680</updated>
+      <workItem from="1714965289665" duration="2405000" />
+      <workItem from="1715304929392" duration="6558000" />
+      <workItem from="1715565136653" duration="2982000" />
+      <workItem from="1715737801129" duration="4727000" />
+      <workItem from="1715914252014" duration="2239000" />
+      <workItem from="1716169698088" duration="5408000" />
+      <workItem from="1716344037931" duration="5268000" />
+      <workItem from="1716516380929" duration="3750000" />
+      <workItem from="1716773891060" duration="5065000" />
+      <workItem from="1716946733564" duration="3503000" />
+      <workItem from="1716950525861" duration="2296000" />
+    </task>
+    <task id="LOCAL-00001" summary="Intro to OOP">
+      <option name="closed" value="true" />
+      <created>1714967075377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714967075377</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Constructors / Deep copy /Shallow copy">
+      <option name="closed" value="true" />
+      <created>1715309437583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715309437583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Static">
+      <option name="closed" value="true" />
+      <created>1715311376816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715311376816</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Interfaces and Abstract classes">
+      <option name="closed" value="true" />
+      <created>1715743328325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715743328325</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Concurrency 1">
+      <option name="closed" value="true" />
+      <created>1715915714798</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715915714798</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Executors and callables">
+      <option name="closed" value="true" />
+      <created>1716173495134</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716173495134</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Mutex and Synchronized">
+      <option name="closed" value="true" />
+      <created>1716346547005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716346547005</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Producer - Consumer">
+      <option name="closed" value="true" />
+      <created>1716348643317</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716348643317</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Concurrency 4 and Generics">
+      <option name="closed" value="true" />
+      <created>1716777873104</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716777873104</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Intro to OOP" />
+    <MESSAGE value="Constructors / Deep copy /Shallow copy" />
+    <MESSAGE value="Static" />
+    <MESSAGE value="Interfaces and Abstract classes" />
+    <MESSAGE value="Concurrency 1" />
+    <MESSAGE value="Executors and callables" />
+    <MESSAGE value="Mutex and Synchronized" />
+    <MESSAGE value="Producer - Consumer" />
+    <MESSAGE value="Concurrency 4 and Generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concurrency 4 and Generics" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThreadPool/Client.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MultiThreadedMergeSort/Sorter.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ProducerConsumer/Client.java</url>
+          <line>6</line>
+          <properties class="ProducerConsumer.Client" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
